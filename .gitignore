@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+tcp_echo/.vs/tcp_echo/v17/.suo
+tcp_echo/.vs/tcp_echo/v17/Browse.VC.db
+tcp_echo/.vs/tcp_echo/v17/ipch/AutoPCH/9a032000b600c702/HELLOTCPIP.ipch
+tcp_echo/.vs/tcp_echo/v17/ipch/AutoPCH/bba9f64515ace5a1/HELLOTCPIPSERVER.ipch
+tcp_echo/.vs/tcp_echo/v17/ipch/AutoPCH/f87686666ee99022/STDAFX.ipch
