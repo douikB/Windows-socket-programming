@@ -1,4 +1,6 @@
 #include "stdafx.h"
+
+#define _WINSOCK_DEPRECATED_NO_WARNINGS
 #include <WinSock2.h>
 #pragma comment(lib, "ws2_32")
 
@@ -24,7 +26,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	SOCKADDR_IN svraddr = { 0 };
 	svraddr.sin_family = AF_INET;
 	svraddr.sin_port = htons(25000);
-	svraddr.sin_addr.S_un.S_addr = inet_addr("192.168.77.2");
+	svraddr.sin_addr.S_un.S_addr = inet_addr("127.0.0.1");
 	if (::connect(hSocket,
 		(SOCKADDR*)&svraddr, sizeof(svraddr)) == SOCKET_ERROR)
 	{
